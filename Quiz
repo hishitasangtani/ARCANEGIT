@@ -1,0 +1,17 @@
+questions = ["1.What is the full form of oops?", "2.who is the developer of python?", "3.Which software are used in python"]
+option = ["a.object oriented programming   b.object and object programming    c.object obsered programming", "a.james gosling   b.  c.ronaldo", "a.anaconda   b.dev   c.notejs   "]
+answer = ["a", "b", "a"]
+m = 0
+for i in range (0, 3):
+  print(questions[i])
+  print(option[i])
+  p =input(": ")
+  if(p==answer[i]):
+    print("correct")
+    m += 10
+  else:
+    print("wrong")
+    print("correct is", answer[i])
+  print("\n")
+
+print("total marks : ", m)

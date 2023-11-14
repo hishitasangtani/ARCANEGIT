@@ -1,0 +1,24 @@
+for i in range(1,30):
+  s = input("you:")
+  if(s=="hii"):
+    print("hello")
+  if(s=="who are you"):
+    print("hii i am chatbot i can help you to find your queries...")
+  if(s=="what are you doing"):
+    print("i am chatting with you")
+  if(s=="how can you help me?"):
+    print("i can give you information and help you with solution of your questions...")
+  if(s=="thank you"):
+    print("welcome")
+  if(s=="bye"):
+    print("bye")
+  if(s=="tell me about youself"):
+    print("i am a chatbot who can talking with you i am not human being so obviously i will not judge you you share with me anything")
+  if(s=="good morning"):
+    print("good morning")
+  elif(s=="good afternoon"):
+    print("good afternoon")
+  elif(s=="good evening"):
+    print("good evening")
+  elif(s=="good night"):
+    print("good night")
